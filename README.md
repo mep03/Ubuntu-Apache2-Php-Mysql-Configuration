@@ -118,7 +118,7 @@ mysql_secure_installation
 ### Create database
 
 ```
-mysql_upgrade -u root -p
+mysql -u root -p
 create database DATABASE_NAME;
 grant all privileges on DATABASE_NAME.* TO 'root'@'localhost' identified by 'YOUR_PASSWORD';
 ```
